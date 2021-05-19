@@ -1,4 +1,12 @@
 # DownloadATS_R
+
+Download_ATS(CustID, path)
+
+CustID is the customer ID that is unique to each account and can only be obtained by contacting ATS.
+path is the location of the folder you want to download the data to. It must include a name for the file and end in .txt.
+Example: path <- "C:/folder path/FileName.txt"
+
+
 ATS recently updated there website. This is a function to download and import ATS collar data from the new site without having to log in.
 You will need to contact ATS to obtain a cutomer code that is unique to each account. When you have that the only other information to put into the function is the path of where you want to download the data to, ending in the file name and .txt
 Example: path <- "C:/folder path/FileName.txt"
