@@ -1,6 +1,6 @@
 # DownloadATS_R
 
-Download_ATS(CustID, path)
+ATS.df <- Download_ATS(CustID, path)
 
 CustID is the customer ID that is unique to each account and can only be obtained by contacting ATS.
 path is the location of the folder you want to download the data to. It must include a name for the file and end in .txt.
